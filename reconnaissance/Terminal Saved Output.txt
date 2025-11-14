@@ -1,0 +1,197 @@
+➜  Echo-2k git:(main) ✗ >....                                                   
+RpdHV0aW9uSWQiOiI5YThiYTYyMi1lZTllLTRmN2ItODE0NS05YTE4ZDdhNmE4MGUiLCJkb21haW4iOiJlY2hvMzYwLm9yZy51ayIsImtleUlkIjoiNWQ4MDdjNDctZGQzMS00NzYzLThlNGEtOWI3ZjE1MTI5NThjIiwic3NvSWQiOiJPZGluLkhvbGRvbUBXYXJ3aWNrLkFjLlVrIiwicnFyb2xlIjoic3R1ZGVudCJ9fQ.VoIJObpgiyVA4oZAr4wxsSdYbgEl02jPWKIV6ND1orU; CloudFront-Tracking2=MTc2MzE1OTc3ODQzMuKQn+KQn+KQn+KQnzlhOGJhNjIyLWVlOWUtNGY3Yi04MTQ1LTlhMThkN2E2YTgwZeKQn+KQn+KQn+KQny5lY2hvMzYwLm9yZy51a+KQn+KQny8; CloudFront-Key-Pair-Id=APKAIPMYRDQXV3PXG2XA; CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8qOWE4YmE2MjItZWU5ZS00ZjdiLTgxNDUtOWExOGQ3YTZhODBlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjMxNjMzNzh9fX1dfQ__; CloudFront-Signature=g~JJ~CzbGwjIjTu0PiIk5l7H2JzmelueEIDgm0wLRyGmj2gnqLxZt0wgZh8PlbhDY0gkLD~pmaXmZaGWAH0WV6Yy1cffukYCuqFMy4o2UmeSf6wcONwGjygRcuV9~V77K0xox5fzMCCKJnf3CzvXhfJog-5bRrGMG7MepwpN3pTg0TuxZF9JBOWSOFYQZ1XIZ11EDzKWKkOMwoLL9vOVtEjGR9ijc9RJWGkDAuo4N6IC0ZGWPLhpy2BSuy2WVUdXxyHnjKfrsTjcugcwW45mf78uuglBt72cGzRrgUk3fi7Lduz3TJZ-hIjJ1a8Qtm4yLR-9V6wdKlls~Qk2KeuGnw__' \
+  -i 'https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/c1651be5-ea3a-41b1-907f-df88f171d27a/2/s1q1.mp4?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_9b339350-6e1e-4fae-bb03-9a13302ce19a_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-06T09%3A00%3A00.000_2025-11-06T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=c1651be5-ea3a-41b1-907f-df88f171d27a&x-act=videoView&x-src=desktop' \
+  -c copy echo-2025-11-06_s1q1.mp4
+
+ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[https @ 0x146706de0] No trailing CRLF found in HTTP header. Adding it.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/c1651be5-ea3a-41b1-907f-df88f171d27a/2/s1q1.mp4?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_9b339350-6e1e-4fae-bb03-9a13302ce19a_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-06T09%3A00%3A00.000_2025-11-06T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=c1651be5-ea3a-41b1-907f-df88f171d27a&x-act=videoView&x-src=desktop':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:48:47.03, start: 0.066016, bitrate: 61 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 59 kb/s, 30 fps, 30 tbr, 15360 tbn, start 0.066016 (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc61.3.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp4, to 'echo-2025-11-06_s1q1.mp4':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf62.3.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 59 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc61.3.100 libx264
+Press [q] to stop, [?] for help
+frame=48000 fps=0.0 q=-1.0 size=   10496KiB time=00:26:39.93 bitrate=  53.7kbitsframe=87300 fps=86747 q=-1.0 size=   20992KiB time=00:48:29.93 bitrate=  59.1kbi[out#0/mp4 @ 0x600002224180] video:21236KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 4.842568%
+frame=87811 fps=85806 q=-1.0 Lsize=   22264KiB time=00:48:46.96 bitrate=  62.3kbits/s speed=2.86e+03x elapsed=0:00:01.02    
+➜  Echo-2k git:(main) ✗ >....                                                   
+  -headers 'Origin: https://echo360.org.uk' \
+  -headers 'DNT: 1' \
+  -headers 'If-Modified-Since: Fri, 07 Nov 2025 07:43:00 GMT' \
+  -headers 'If-None-Match: "a4cba377b938941cb2f5f319484a156d-17"' \
+  -headers 'Priority: u=1, i' \
+  -headers 'Sec-Fetch-Dest: empty' \
+  -headers 'Sec-Fetch-Mode: cors' \
+  -headers 'Sec-Fetch-Site: same-site' \
+  -headers 'Sec-CH-UA: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"' \
+  -headers 'Sec-CH-UA-Mobile: ?0' \
+  -headers 'Sec-CH-UA-Platform: "macOS"' \
+  -headers 'Cookie: ECHO_JWT=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJFY2hvMzYwLkF1dGhuIiwic3ViIjoiT2Rpbi5Ib2xkb21AV2Fyd2ljay5BYy5VayIsImV4cCI6MTc2MzIwMjk3OCwiaWF0IjoxNzYzMTU2MTc4LCJqdGkiOiIyZDA5Zjg0ZS05N2FhLTQ5YTAtOWU0MC02MjI3NmIwYzk2ZWQiLCJjb250ZW50Ijp7InNlc3Npb25JZCI6ImIyODQzMTVjLWYxZTAtNDM1Yi1hYzk1LWJlMmY1YmYyMjBkZCIsInVzZXJJZCI6IjFiYWYyNDhiLTE1MTUtNGViMC1hMzQwLTcwODBjMjJmOTk5MSIsImluc3RpdHV0aW9uSWQiOiI5YThiYTYyMi1lZTllLTRmN2ItODE0NS05YTE4ZDdhNmE4MGUiLCJkb21haW4iOiJlY2hvMzYwLm9yZy51ayIsImtleUlkIjoiNWQ4MDdjNDctZGQzMS00NzYzLThlNGEtOWI3ZjE1MTI5NThjIiwic3NvSWQiOiJPZGluLkhvbGRvbUBXYXJ3aWNrLkFjLlVrIiwicnFyb2xlIjoic3R1ZGVudCJ9fQ.VoIJObpgiyVA4oZAr4wxsSdYbgEl02jPWKIV6ND1orU; CloudFront-Tracking2=MTc2MzE1OTc3ODQzMuKQn+KQn+_
+
+quote> 
+quote> 
+quote> 
+➜  Echo-2k git:(main) ✗ 
+➜  Echo-2k git:(main) ✗ 
+➜  Echo-2k git:(main) ✗ 
+➜  Echo-2k git:(main) ✗ 
+➜  Echo-2k git:(main) ✗ 
+➜  Echo-2k git:(main) ✗ 
+➜  Echo-2k git:(main) ✗ >....                                                   
+RpdHV0aW9uSWQiOiI5YThiYTYyMi1lZTllLTRmN2ItODE0NS05YTE4ZDdhNmE4MGUiLCJkb21haW4iOiJlY2hvMzYwLm9yZy51ayIsImtleUlkIjoiNWQ4MDdjNDctZGQzMS00NzYzLThlNGEtOWI3ZjE1MTI5NThjIiwic3NvSWQiOiJPZGluLkhvbGRvbUBXYXJ3aWNrLkFjLlVrIiwicnFyb2xlIjoic3R1ZGVudCJ9fQ.VoIJObpgiyVA4oZAr4wxsSdYbgEl02jPWKIV6ND1orU; CloudFront-Tracking2=MTc2MzE1OTc3ODQzMuKQn+KQn+KQn+KQnzlhOGJhNjIyLWVlOWUtNGY3Yi04MTQ1LTlhMThkN2E2YTgwZeKQn+KQn+KQn+KQny5lY2hvMzYwLm9yZy51a+KQn+KQny8; CloudFront-Key-Pair-Id=APKAIPMYRDQXV3PXG2XA; CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8qOWE4YmE2MjItZWU5ZS00ZjdiLTgxNDUtOWExOGQ3YTZhODBlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjMxNjMzNzh9fX1dfQ__; CloudFront-Signature=g~JJ~CzbGwjIjTu0PiIk5l7H2JzmelueEIDgm0wLRyGmj2gnqLxZt0wgZh8PlbhDY0gkLD~pmaXmZaGWAH0WV6Yy1cffukYCuqFMy4o2UmeSf6wcONwGjygRcuV9~V77K0xox5fzMCCKJnf3CzvXhfJog-5bRrGMG7MepwpN3pTg0TuxZF9JBOWSOFYQZ1XIZ11EDzKWKkOMwoLL9vOVtEjGR9ijc9RJWGkDAuo4N6IC0ZGWPLhpy2BSuy2WVUdXxyHnjKfrsTjcugcwW45mf78uuglBt72cGzRrgUk3fi7Lduz3TJZ-hIjJ1a8Qtm4yLR-9V6wdKlls~Qk2KeuGnw__' \
+  -i 'https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/c1651be5-ea3a-41b1-907f-df88f171d27a/2/s0q1.mp4?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_9b339350-6e1e-4fae-bb03-9a13302ce19a_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-06T09%3A00%3A00.000_2025-11-06T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=c1651be5-ea3a-41b1-907f-df88f171d27a&x-act=videoView&x-src=desktop' \
+  -c copy echo-2025-11-06_s0q1.mp4
+
+ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+➜  Echo-2k git:(main) ✗ ffmpeg \
+  -user_agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0' \
+  -referer 'https://echo360.org.uk/' \
+  -headers 'Accept: */*' \
+  -headers 'Accept-Language: en-GB,en;q=0.9,en-US;q=0.8' \
+  -headers 'Origin: https://echo360.org.uk' \
+  -headers 'DNT: 1' \
+  -headers 'If-Modified-Since: Fri, 07 Nov 2025 07:43:00 GMT' \
+  -headers 'If-None-Match: "a4cba377b938941cb2f5f319484a156d-17"' \
+  -headers 'Priority: u=1, i' \
+  -headers 'Sec-Fetch-Dest: empty' \
+  -headers 'Sec-Fetch-Mode: cors' \
+  -headers 'Sec-Fetch-Site: same-site' \
+  -headers 'Sec-CH-UA: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"' \
+  -headers 'Sec-CH-UA-Mobile: ?0' \
+  -headers 'Sec-CH-UA-Platform: "macOS"' \
+  -headers 'Cookie: ECHO_JWT=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJFY2hvMzYwLkF1dGhuIiwic3ViIjoiT2Rpbi5Ib2xkb21AV2Fyd2ljay5BYy5VayIsImV4cCI6MTc2MzIwMjk3OCwiaWF0IjoxNzYzMTU2MTc4LCJqdGkiOiIyZDA5Zjg0ZS05N2FhLTQ5YTAtOWU0MC02MjI3NmIwYzk2ZWQiLCJjb250ZW50Ijp7InNlc3Npb25JZCI6ImIyODQzMTVjLWYxZTAtNDM1Yi1hYzk1LWJlMmY1YmYyMjBkZCIsInVzZXJJZCI6IjFiYWYyNDhiLTE1MTUtNGViMC1hMzQwLTcwODBjMjJmOTk5MSIsImluc3RpdHV0aW9uSWQiOiI5YThiYTYyMi1lZTllLTRmN2ItODE0NS05YTE4ZDdhNmE4MGUiLCJkb21haW4iOiJlY2hvMzYwLm9yZy51ayIsImtleUlkIjoiNWQ4MDdjNDctZGQzMS00NzYzLThlNGEtOWI3ZjE1MTI5NThjIiwic3NvSWQiOiJPZGluLkhvbGRvbUBXYXJ3aWNrLkFjLlVrIiwicnFyb2xlIjoic3R1ZGVudCJ9fQ.VoIJObpgiyVA4oZAr4wxsSdYbgEl02jPWKIV6ND1orU; CloudFront-Tracking2=MTc2MzE1OTc3ODQzMuKQn+KQn+KQn+KQnzlhOGJhNjIyLWVlOWUtNGY3Yi04MTQ1LTlhMThkN2E2YTgwZeKQn+KQn+KQn+KQny5lY2hvMzYwLm9yZy51a+KQn+KQny8; CloudFront-Key-Pair-Id=APKAIPMYRDQXV3PXG2XA; CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8qOWE4YmE2MjItZWU5ZS00ZjdiLTgxNDUtOWExOGQ3YTZhODBlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjMxNjMzNzh9fX1dfQ__; CloudFront-Signature=g~JJ~CzbGwjIjTu0PiIk5l7H2JzmelueEIDgm0wLRyGmj2gnqLxZt0wgZh8PlbhDY0gkLD~pmaXmZaGWAH0WV6Yy1cffukYCuqFMy4o2UmeSf6wcONwGjygRcuV9~V77K0xox5fzMCCKJnf3CzvXhfJog-5bRrGMG7MepwpN3pTg0TuxZF9JBOWSOFYQZ1XIZ11EDzKWKkOMwoLL9vOVtEjGR9ijc9RJWGkDAuo4N6IC0ZGWPLhpy2BSuy2WVUdXxyHnjKfrsTjcugcwW45mf78uuglBt72cGzRrgUk3fi7Lduz3TJZ-hIjJ1a8Qtm4yLR-9V6wdKlls~Qk2KeuGnw__' \
+  -i 'https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/c1651be5-ea3a-41b1-907f-df88f171d27a/2/s0q0.mp4?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_9b339350-6e1e-4fae-bb03-9a13302ce19a_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-06T09%3A00%3A00.000_2025-11-06T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=c1651be5-ea3a-41b1-907f-df88f171d27a&x-act=videoView&x-src=desktop' \
+  -c copy echo-2025-11-06_s0q0.mp4
+
+ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[https @ 0x11df06e30] No trailing CRLF found in HTTP header. Adding it.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/c1651be5-ea3a-41b1-907f-df88f171d27a/2/s0q0.mp4?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_9b339350-6e1e-4fae-bb03-9a13302ce19a_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-06T09%3A00%3A00.000_2025-11-06T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=c1651be5-ea3a-41b1-907f-df88f171d27a&x-act=videoView&x-src=desktop':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:48:47.08, start: 0.000000, bitrate: 46 kb/s
+  Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 44 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp4, to 'echo-2025-11-06_s0q0.mp4':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf62.3.100
+  Stream #0:0(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 44 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Press [q] to stop, [?] for help
+[out#0/mp4 @ 0x600000a3c000] video:0KiB audio:15944KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 3.094780%
+size=   16438KiB time=00:48:47.08 bitrate=  46.0kbits/s speed=3.72e+03x elapsed=0:00:00.78    
+➜  Echo-2k git:(main) ✗ ffmpeg \
+  -user_agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0' \
+  -referer 'https://echo360.org.uk/' \
+  -headers 'Accept: */*' \
+  -headers 'Accept-Language: en-GB,en;q=0.9,en-US;q=0.8' \
+  -headers 'Origin: https://echo360.org.uk' \
+  -headers 'DNT: 1' \
+  -headers 'If-Modified-Since: Fri, 07 Nov 2025 07:43:00 GMT' \
+  -headers 'If-None-Match: "a4cba377b938941cb2f5f319484a156d-17"' \
+  -headers 'Priority: u=1, i' \
+  -headers 'Sec-Fetch-Dest: empty' \
+  -headers 'Sec-Fetch-Mode: cors' \
+  -headers 'Sec-Fetch-Site: same-site' \
+  -headers 'Sec-CH-UA: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"' \
+  -headers 'Sec-CH-UA-Mobile: ?0' \
+  -headers 'Sec-CH-UA-Platform: "macOS"' \
+  -headers 'Cookie: ECHO_JWT=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJFY2hvMzYwLkF1dGhuIiwic3ViIjoiT2Rpbi5Ib2xkb21AV2Fyd2ljay5BYy5VayIsImV4cCI6MTc2MzIwMjk3OCwiaWF0IjoxNzYzMTU2MTc4LCJqdGkiOiIyZDA5Zjg0ZS05N2FhLTQ5YTAtOWU0MC02MjI3NmIwYzk2ZWQiLCJjb250ZW50Ijp7InNlc3Npb25JZCI6ImIyODQzMTVjLWYxZTAtNDM1Yi1hYzk1LWJlMmY1YmYyMjBkZCIsInVzZXJJZCI6IjFiYWYyNDhiLTE1MTUtNGViMC1hMzQwLTcwODBjMjJmOTk5MSIsImluc3RpdHV0aW9uSWQiOiI5YThiYTYyMi1lZTllLTRmN2ItODE0NS05YTE4ZDdhNmE4MGUiLCJkb21haW4iOiJlY2hvMzYwLm9yZy51ayIsImtleUlkIjoiNWQ4MDdjNDctZGQzMS00NzYzLThlNGEtOWI3ZjE1MTI5NThjIiwic3NvSWQiOiJPZGluLkhvbGRvbUBXYXJ3aWNrLkFjLlVrIiwicnFyb2xlIjoic3R1ZGVudCJ9fQ.VoIJObpgiyVA4oZAr4wxsSdYbgEl02jPWKIV6ND1orU; CloudFront-Tracking2=MTc2MzE1OTc3ODQzMuKQn+KQn+KQn+KQnzlhOGJhNjIyLWVlOWUtNGY3Yi04MTQ1LTlhMThkN2E2YTgwZeKQn+KQn+KQn+KQny5lY2hvMzYwLm9yZy51a+KQn+KQny8; CloudFront-Key-Pair-Id=APKAIPMYRDQXV3PXG2XA; CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8qOWE4YmE2MjItZWU5ZS00ZjdiLTgxNDUtOWExOGQ3YTZhODBlLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjMxNjMzNzh9fX1dfQ__; CloudFront-Signature=g~JJ~CzbGwjIjTu0PiIk5l7H2JzmelueEIDgm0wLRyGmj2gnqLxZt0wgZh8PlbhDY0gkLD~pmaXmZaGWAH0WV6Yy1cffukYCuqFMy4o2UmeSf6wcONwGjygRcuV9~V77K0xox5fzMCCKJnf3CzvXhfJog-5bRrGMG7MepwpN3pTg0TuxZF9JBOWSOFYQZ1XIZ11EDzKWKkOMwoLL9vOVtEjGR9ijc9RJWGkDAuo4N6IC0ZGWPLhpy2BSuy2WVUdXxyHnjKfrsTjcugcwW45mf78uuglBt72cGzRrgUk3fi7Lduz3TJZ-hIjJ1a8Qtm4yLR-9V6wdKlls~Qk2KeuGnw__' \
+  -i 'https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/c1651be5-ea3a-41b1-907f-df88f171d27a/2/s1q0.mp4?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_9b339350-6e1e-4fae-bb03-9a13302ce19a_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-06T09%3A00%3A00.000_2025-11-06T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=c1651be5-ea3a-41b1-907f-df88f171d27a&x-act=videoView&x-src=desktop' \
+  -c copy echo-2025-11-06_s1q0.mp4
+
+ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.0_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+[https @ 0x135605270] No trailing CRLF found in HTTP header. Adding it.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/c1651be5-ea3a-41b1-907f-df88f171d27a/2/s1q0.mp4?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_9b339350-6e1e-4fae-bb03-9a13302ce19a_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-06T09%3A00%3A00.000_2025-11-06T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=c1651be5-ea3a-41b1-907f-df88f171d27a&x-act=videoView&x-src=desktop':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf61.1.100
+  Duration: 00:48:47.03, start: 0.066016, bitrate: 24 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 640x360 [SAR 1:1 DAR 16:9], 22 kb/s, 30 fps, 30 tbr, 15360 tbn, start 0.066016 (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc61.3.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp4, to 'echo-2025-11-06_s1q0.mp4':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+    encoder         : Lavf62.3.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 22 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc61.3.100 libx264
+Press [q] to stop, [?] for help
+[out#0/mp4 @ 0x6000020183c0] video:7965KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 12.911951%
+frame=87811 fps=0.0 q=-1.0 Lsize=    8994KiB time=00:48:46.96 bitrate=  25.2kbits/s speed=6.89e+03x elapsed=0:00:00.42    
+➜  Echo-2k git:(main) ✗ 

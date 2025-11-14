@@ -1,0 +1,975 @@
+{
+  "canViewAnalytics": false,
+  "captions": null,
+  "context": {
+    "courseId": "b3848445-9a87-46e3-b463-db1db5ce431f",
+    "departmentId": "2e0a40b1-0737-44b9-aef2-b7d4b03276c3",
+    "lessonId": "G_a35d7e20-e240-4ebb-b170-b37d1659fcf9_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-14T09:00:00.000_2025-11-14T10:00:00.000",
+    "organizationId": "ea5fa303-1409-4833-906f-f59dbbe19568",
+    "sectionId": "2e58098a-7b13-46d1-a841-93835d83a900",
+    "termId": "a60e74c4-fa27-4c24-91ee-8695c1ab146a"
+  },
+  "chapters": null,
+  "copyrightData": {
+    "copyrightEnabled": false,
+    "enabledPrivileges": [],
+    "restrictDownload": false,
+    "restrictUnauthenticatedViewing": false,
+    "enforceCopyrightAcknowledgement": false,
+    "copyrightPolicyText": null,
+    "copyrightAcknowledged": false
+  },
+  "polls": [],
+  "cookieRenewalIntervalMillis": 3600000,
+  "heatmapData": [],
+  "lesson": {
+    "id": "G_a35d7e20-e240-4ebb-b170-b37d1659fcf9_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-14T09:00:00.000_2025-11-14T10:00:00.000",
+    "institutionId": "9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+    "sectionId": "2e58098a-7b13-46d1-a841-93835d83a900",
+    "captureOccurrenceId": "a35d7e20-e240-4ebb-b170-b37d1659fcf9_20251114T0900",
+    "name": "CS118 - 2025-11-14",
+    "timing": {
+      "start": "2025-11-14T09:00:00.000",
+      "end": "2025-11-14T10:00:00.000"
+    },
+    "timeZone": {
+      "id": "Europe/London",
+      "name": "(+00:00) Europe/London",
+      "standardOffset": "PT0S"
+    },
+    "fromSchedule": true,
+    "shouldStreamLive": false,
+    "createdAt": "2025-11-14T10:01:14.471Z",
+    "updatedAt": "2025-11-14T10:01:14.471Z",
+    "isFolderLesson": false,
+    "displayName": "CS118 - 2025-11-14",
+    "lessonHasName": true
+  },
+  "locale": "en-GB",
+  "isMuted": false,
+  "isPlaying": false,
+  "sectionInfo": {
+    "section": {
+      "id": "2e58098a-7b13-46d1-a841-93835d83a900",
+      "institutionId": "9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+      "courseId": "b3848445-9a87-46e3-b463-db1db5ce431f",
+      "termId": "a60e74c4-fa27-4c24-91ee-8695c1ab146a",
+      "scheduleIds": [
+        "b1796884-cba7-456b-a4ee-5f37a50c2d21",
+        "66d4b84e-8181-4db3-92ce-98ad96ad4cbe",
+        "24ae79de-2670-4741-9748-3116d16357d1",
+        "83eefb48-f564-4a1b-8275-5bb7c8a284d3",
+        "8e7c794d-3563-46b7-a1ad-1d5a01b7fcf9",
+        "1d3f1915-6b73-4e57-bf6c-9457197ba703",
+        "180c743e-7a26-4956-b05e-dfeda6f99f56",
+        "753e7197-e2e4-4664-ba94-720e04262e65",
+        "8c662b3f-0d76-4dae-a7b0-da4409e7f333",
+        "0c9b6c16-8073-49ca-94c3-ef23b249569c",
+        "a35d7e20-e240-4ebb-b170-b37d1659fcf9",
+        "e7d8673d-d04e-495a-ac0c-38008995cd4a",
+        "f6ae4210-b0f8-4526-ad89-6263c4d6bdcf",
+        "dccc742e-2d69-4afe-aff2-9fe8058406d5",
+        "6dcd1020-b098-404f-b01e-65134bb57111",
+        "5238d6b5-8b08-4d89-ac57-7207dc56f6ab",
+        "93059de2-758a-4c44-906f-f0a96d41dffe",
+        "eb521143-9330-49a7-8565-dd4fb36a5089",
+        "9b339350-6e1e-4fae-bb03-9a13302ce19a",
+        "9d5bf466-bc6a-42c7-9633-f107cd1efb04",
+        "018e4e4d-0edc-4021-998c-4cdf69313ec9"
+      ],
+      "sectionNumber": "CS118 (2025/26)",
+      "gradeType": "Manual",
+      "createdAt": "2025-08-07T19:23:16.486Z",
+      "updatedAt": "2025-11-04T10:52:02.591Z",
+      "isFolder": false
+    },
+    "course": {
+      "id": "b3848445-9a87-46e3-b463-db1db5ce431f",
+      "institutionId": "9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+      "organizationId": "ea5fa303-1409-4833-906f-f59dbbe19568",
+      "departmentId": "2e0a40b1-0737-44b9-aef2-b7d4b03276c3",
+      "courseName": "CS118:Programming for Computer Scientists",
+      "courseIdentifier": "CS118",
+      "sectionCount": 8,
+      "createdAt": "2018-03-08T10:30:06.087Z",
+      "updatedAt": "2025-08-07T19:23:16.620Z"
+    },
+    "term": {
+      "id": "a60e74c4-fa27-4c24-91ee-8695c1ab146a",
+      "institutionId": "9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+      "name": "2025-26",
+      "session": {
+        "startDate": "2025-08-01",
+        "endDate": "2030-07-31"
+      },
+      "exceptions": [],
+      "sectionCount": 3681,
+      "lmsSelected": false,
+      "createdAt": "2025-05-16T12:40:47.021Z",
+      "updatedAt": "2025-11-13T16:40:19.715Z"
+    },
+    "label": "CS118 - CS118 (2025/26) CS118:Programming for Computer Scientists (2025-26)",
+    "isFolder": false
+  },
+  "slides": {
+    "slideDeck": null,
+    "slidesWithImages": null,
+    "startSlideIndex": null
+  },
+  "startTimeMillis": 2702000,
+  "viewEmbedInfo": {
+    "linkId": "required but not used",
+    "mediaName": "CS118 - 2025-11-14",
+    "loggedIn": false,
+    "loginCheck": false,
+    "autoPlay": false,
+    "autoMute": false,
+    "lastPlayedToSeconds": 2702,
+    "playerType": "required but not used"
+  },
+  "hasContent": true,
+  "user": {
+    "services": {
+      "embedly": {
+        "isSecure": true,
+        "key": "b9c0511e7d564707bee1438331d9efbd",
+        "baseUrl": "https://api.embed.ly/1/oembed",
+        "isFrame": true,
+        "echoDomainList": [
+          "echo360qa.org",
+          "echo360qa.dev",
+          "echo360.org",
+          "echo360.org.au",
+          "echo360.net.au",
+          "echo360.ca",
+          "echo360.org.uk"
+        ]
+      },
+      "pubnub": {
+        "nonPresenceConfig": {
+          "authKey": "p0F2AkF0GmkXlKhDdHRsGQWgQ3Jlc6VEY2hhbqF4XGRpc2N1c3Npb24uR19hMzVkN2UyMC1lMjQwLTRlYmItYjE3MC1iMzdkMTY1OWZjZjlfMmU1ODA5OGEtN2IxMy00NmQxLWE4NDEtOTM4MzVkODNhOTAwXzIwMjUtA0NncnCgQ3NwY6BDdXNyoER1dWlkoENwYXSlRGNoYW6gQ2dycKBDc3BjoEN1c3KgRHV1aWSgRG1ldGGgQ3NpZ1ggJdkPw_lwWhGpuqY3d2cZvzAwUOPYt4HiSMOfg4pch94=",
+          "suppressLeaveEvents": true,
+          "restore": true,
+          "uuid": "user_1baf248b-1515-4eb0-a340-7080c22f9991@9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+          "presenceTimeout": 300,
+          "useRandomIVs": false,
+          "cipherKey": "yiupWELhKZmV42S3twt_s@..DSTx2j;%",
+          "useRequestId": true,
+          "subscribeKey": "sub-c-6032ede6-46cf-11ea-938c-96a9806a27ab",
+          "publishKey": "pub-c-7e3f45d0-a345-408a-a3b7-eeb767f86e41",
+          "heartbeatInterval": 0
+        },
+        "forPresenceConfig": {
+          "authKey": "c40f52e2-e0d3-4ea6-9185-4e3601988aa0",
+          "suppressLeaveEvents": false,
+          "restore": true,
+          "uuid": "user_1baf248b-1515-4eb0-a340-7080c22f9991@9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+          "presenceTimeout": 62,
+          "useRandomIVs": false,
+          "cipherKey": "yiupWELhKZmV42S3twt_s@..DSTx2j;%",
+          "useRequestId": true,
+          "subscribeKey": "sub-c-6032ede6-46cf-11ea-938c-96a9806a27ab",
+          "publishKey": "pub-c-7e3f45d0-a345-408a-a3b7-eeb767f86e41",
+          "heartbeatInterval": 30
+        },
+        "legacyConfig": {
+          "authKey": "p0F2AkF0GmkXlKhDdHRsGQWgQ3Jlc6VEY2hhbqJ4LHNlY3Rpb24tMmU1ODA5OGEtN2IxMy00NmQxLWE4NDEtOTM4MzVkODNhOTAwA3g2c2VjdGlvbkluc3RydWN0b3ItMmU1ODA5OGEtN2IxMy00NmQxLWE4NDEtOTM4MzVkODNhOTAwA0NncnCgQ3NwY6BDdXNyoER1dWlkoENwYXSlRGNoYW6gQ2dycKBDc3BjoEN1c3KgRHV1aWSgRG1ldGGgQ3NpZ1ggQH6Df7BE_9ivI91D-dPsG0TTZzbvfz1_f4-qsmcw79Q=",
+          "suppressLeaveEvents": true,
+          "uuid": "user_1baf248b-1515-4eb0-a340-7080c22f9991@9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+          "presenceTimeout": 300,
+          "useRandomIVs": false,
+          "cipherKey": "kYF0bcExY5rwcvVSSYJfwUsgfOLYngQa",
+          "useRequestId": true,
+          "subscribeKey": "sub-c-c5913f4e-d47f-11e3-8068-02ee2ddab7fe",
+          "publishKey": "pub-c-783cd1ac-ffc0-4e61-91d4-947a337fe075",
+          "heartbeatInterval": 0
+        }
+      },
+      "filestack": {
+        "apikey": "A3Z0poKHrTbKnpezbjvjcz",
+        "baseUrl": "s3.amazonaws.com",
+        "pickerOptions": {
+          "uploadConfig": {
+            "concurrency": 2,
+            "partSize": 5242880,
+            "retry": 5,
+            "timeout": 240000
+          },
+          "uploadInBackground": false,
+          "concurrency": 4,
+          "storeTo": {
+            "container": "uk-org-echo360-alpprod-eu-west-filepicker",
+            "region": "eu-west-1",
+            "access": "private",
+            "location": "s3"
+          },
+          "maxFiles": 30,
+          "maxSize": 21474836480,
+          "fromSources": [
+            "local_file_system",
+            "dropbox",
+            "googledrive",
+            "onedrive",
+            "onedriveforbusiness",
+            "box"
+          ]
+        },
+        "protocol": "https"
+      },
+      "airbrake": {
+        "projectId": "98881",
+        "projectKey": "321e2ae26cf072bf06501010a06e3d1b",
+        "environment": "production"
+      },
+      "folders": {
+        "bucket": "org-echo360-alpprod-eu-west-folder"
+      },
+      "zoomUserMeeting": {
+        "canCreate": false
+      }
+    },
+    "name": "Odin Holdom",
+    "createdOn": "2025-10-17",
+    "email": "Odin.Holdom@Warwick.Ac.Uk",
+    "currentRole": "Student",
+    "preference": {
+      "player": {
+        "playbackSpeed": "1x",
+        "closedCaption": {
+          "contrast": "Light",
+          "location": "Bottom",
+          "size": "Auto",
+          "visible": false
+        },
+        "playerSettings": false,
+        "overlayToggle": "Disabled",
+        "transcript": {
+          "visible": false
+        },
+        "playerQuality": "auto",
+        "isSidebarOpen": false
+      }
+    },
+    "privileges": [],
+    "institutions": [
+      {
+        "id": "9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+        "name": "University of Warwick - Prod",
+        "currentUserRoles": [
+          "Student"
+        ]
+      }
+    ],
+    "isLtiSession": true,
+    "lastName": "Holdom",
+    "firstName": "Odin",
+    "id": "1baf248b-1515-4eb0-a340-7080c22f9991",
+    "timeZoneId": "Europe/London",
+    "status": "Active",
+    "currentInstitutionRoles": [
+      "Student"
+    ],
+    "eulaVersion": 0,
+    "timeZoneOffsetMinutes": 0,
+    "currentInstitution": {
+      "name": "University of Warwick - Prod",
+      "isLmsApiConfigured": false,
+      "id": "9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+      "iconImageUrl": "https://images.echo360.org.uk/9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/Uz8K2BVzRTmFzbKXW1OG_Institution+image.jfif",
+      "toggles": [
+        {
+          "name": "ltiOrganizationMapping",
+          "enabled": false
+        },
+        {
+          "name": "accessLinks",
+          "enabled": true
+        },
+        {
+          "name": "instructorSectionCloning",
+          "enabled": false
+        },
+        {
+          "name": "zoomLtiPro",
+          "enabled": false
+        },
+        {
+          "name": "playlistWIP",
+          "enabled": true
+        },
+        {
+          "name": "audioDescriptions",
+          "enabled": false
+        },
+        {
+          "name": "publicLinksForStudents",
+          "enabled": false
+        },
+        {
+          "name": "canvasDataApiIntegration",
+          "enabled": false
+        },
+        {
+          "name": "studentLibraryTranscriptEditor",
+          "enabled": false
+        },
+        {
+          "name": "ucStopSoftwareCaptureOnDisconnect",
+          "enabled": false
+        },
+        {
+          "name": "discussions",
+          "enabled": false
+        },
+        {
+          "name": "chapteringV2",
+          "enabled": true
+        },
+        {
+          "name": "nordunetUserDefaultOptOutState",
+          "enabled": false
+        },
+        {
+          "name": "schedulerCreateTerms",
+          "enabled": true
+        },
+        {
+          "name": "createCopySharedContent",
+          "enabled": false
+        },
+        {
+          "name": "folders",
+          "enabled": false
+        },
+        {
+          "name": "ltiCourseSectionAutoProvisioning",
+          "enabled": false
+        },
+        {
+          "name": "ucSoftwareDesktopUiInAppAuth",
+          "enabled": true
+        },
+        {
+          "name": "v2PlayerForClassroomLive",
+          "enabled": false
+        },
+        {
+          "name": "instructorCaptureUnpublish",
+          "enabled": false
+        },
+        {
+          "name": "teachingAssistantCanManageGroups",
+          "enabled": true
+        },
+        {
+          "name": "schedulerInstitutionExports",
+          "enabled": true
+        },
+        {
+          "name": "liveCaptioning",
+          "enabled": false
+        },
+        {
+          "name": "schedulerUploadContent",
+          "enabled": true
+        },
+        {
+          "name": "h5pSupportEnabled",
+          "enabled": true
+        },
+        {
+          "name": "ltiGradebook",
+          "enabled": true
+        },
+        {
+          "name": "defaultCopyrightEnabled",
+          "enabled": false
+        },
+        {
+          "name": "smsActivities",
+          "enabled": false
+        },
+        {
+          "name": "ltiNewProvisioningUi",
+          "enabled": true
+        },
+        {
+          "name": "ucTeachingAssistantDownload",
+          "enabled": false
+        },
+        {
+          "name": "browserCaptureUi",
+          "enabled": true
+        },
+        {
+          "name": "zoomDisableTranscripts",
+          "enabled": false
+        },
+        {
+          "name": "studentLibrary",
+          "enabled": true
+        },
+        {
+          "name": "nordunet",
+          "enabled": false
+        },
+        {
+          "name": "requestTranscriptionsForAllMedia",
+          "enabled": true
+        },
+        {
+          "name": "ltiLimitSectionSelection",
+          "enabled": true
+        },
+        {
+          "name": "zoomUserDefaultOptOutState",
+          "enabled": false
+        },
+        {
+          "name": "chaptering",
+          "enabled": true
+        },
+        {
+          "name": "enableNewConfigurationPages",
+          "enabled": true
+        },
+        {
+          "name": "sharedContentDownloads",
+          "enabled": false
+        },
+        {
+          "name": "advancedCaptionConfigurationWIP",
+          "enabled": false
+        },
+        {
+          "name": "webEx",
+          "enabled": true
+        },
+        {
+          "name": "deviceCertificateOverride",
+          "enabled": false
+        },
+        {
+          "name": "transcriptLanguageDetection",
+          "enabled": false
+        },
+        {
+          "name": "enforceTLS12Plus",
+          "enabled": false
+        },
+        {
+          "name": "upload360Video",
+          "enabled": true
+        },
+        {
+          "name": "ucCloudUi",
+          "enabled": true
+        },
+        {
+          "name": "defaultEnforceCopyrightAcknowledgement",
+          "enabled": false
+        },
+        {
+          "name": "emails",
+          "enabled": false
+        },
+        {
+          "name": "publicLinks",
+          "enabled": true
+        },
+        {
+          "name": "captions",
+          "enabled": false
+        },
+        {
+          "name": "studentPublishedTranscriptEditor",
+          "enabled": false
+        },
+        {
+          "name": "instructorEditSectionName",
+          "enabled": false
+        },
+        {
+          "name": "usersCanUnarchiveContent",
+          "enabled": false
+        },
+        {
+          "name": "zoomDeleteProcessedRecordingsEnabled",
+          "enabled": true
+        },
+        {
+          "name": "instantCapture",
+          "enabled": false
+        },
+        {
+          "name": "disableCielo24",
+          "enabled": true
+        },
+        {
+          "name": "ltiBlockedRoles",
+          "enabled": false
+        },
+        {
+          "name": "mediaEditorWIP",
+          "enabled": false
+        },
+        {
+          "name": "studentCanManageGroups",
+          "enabled": true
+        },
+        {
+          "name": "ltiAdvantageSupport",
+          "enabled": true
+        },
+        {
+          "name": "ucTeachingAssistantClassroomLogin",
+          "enabled": false
+        },
+        {
+          "name": "notifications",
+          "enabled": true
+        },
+        {
+          "name": "webExMapping",
+          "enabled": true
+        },
+        {
+          "name": "outOfTermContentAccess",
+          "enabled": false
+        },
+        {
+          "name": "requestTranscriptions",
+          "enabled": false
+        },
+        {
+          "name": "createCopyCourseContentInstructor",
+          "enabled": false
+        },
+        {
+          "name": "uc4ChannelBeta",
+          "enabled": false
+        },
+        {
+          "name": "ltiCreateSection",
+          "enabled": false
+        },
+        {
+          "name": "contentDownloads",
+          "enabled": true
+        },
+        {
+          "name": "editableEmail",
+          "enabled": false
+        },
+        {
+          "name": "ltiSimplifiedCanvasCourseName",
+          "enabled": false
+        },
+        {
+          "name": "instructorManageEnrollment",
+          "enabled": false
+        },
+        {
+          "name": "mobilePushNotifications",
+          "enabled": false
+        },
+        {
+          "name": "echoPlayerV2Toggle",
+          "enabled": true
+        },
+        {
+          "name": "userpilot",
+          "enabled": true
+        },
+        {
+          "name": "playerLockOverlay",
+          "enabled": false
+        },
+        {
+          "name": "zoomMeetingVisibilityState",
+          "enabled": false
+        },
+        {
+          "name": "studentApplyTranscriptToCaption",
+          "enabled": false
+        },
+        {
+          "name": "delegatedAdmin",
+          "enabled": true
+        },
+        {
+          "name": "h5pLinks",
+          "enabled": false
+        },
+        {
+          "name": "instructorCanManageGroups",
+          "enabled": true
+        },
+        {
+          "name": "ucInstructorCancelScheduledCaptures",
+          "enabled": false
+        },
+        {
+          "name": "webExUserDefaultOptOutState",
+          "enabled": false
+        },
+        {
+          "name": "time24Hour",
+          "enabled": true
+        },
+        {
+          "name": "createCopyCourseContentStudent",
+          "enabled": false
+        },
+        {
+          "name": "askEcho",
+          "enabled": false
+        },
+        {
+          "name": "schedulerCollectionAccess",
+          "enabled": true
+        },
+        {
+          "name": "sidebarDefaultOnToggle",
+          "enabled": true
+        },
+        {
+          "name": "hideUncaptionedVideo",
+          "enabled": false
+        },
+        {
+          "name": "ltiFolderSyncUserMembership",
+          "enabled": true
+        },
+        {
+          "name": "schedulerDeviceAccess",
+          "enabled": true
+        },
+        {
+          "name": "coinstructorEditMedia",
+          "enabled": true
+        },
+        {
+          "name": "verbitCaptioning",
+          "enabled": true
+        },
+        {
+          "name": "liveCaptioningEchoAdmin",
+          "enabled": false
+        },
+        {
+          "name": "requestCaptions",
+          "enabled": false
+        },
+        {
+          "name": "instructorCaptureDeletion",
+          "enabled": false
+        },
+        {
+          "name": "ltiAlternateUserId",
+          "enabled": false
+        },
+        {
+          "name": "enableNewMediaDetailsUi",
+          "enabled": true
+        },
+        {
+          "name": "delegatedAdminCreateTerms",
+          "enabled": true
+        },
+        {
+          "name": "delegatedAdminCreateUsers",
+          "enabled": true
+        },
+        {
+          "name": "delegatedAdminInstitutionExports",
+          "enabled": true
+        },
+        {
+          "name": "publicLinkIndexable",
+          "enabled": false
+        },
+        {
+          "name": "audioDownloadsOnly",
+          "enabled": true
+        },
+        {
+          "name": "delegatedAdminDeviceAccess",
+          "enabled": true
+        },
+        {
+          "name": "echoPlayerV2ForLive",
+          "enabled": true
+        },
+        {
+          "name": "delegatedAdminShowUnpublished",
+          "enabled": false
+        },
+        {
+          "name": "ltiAutoTermSelection",
+          "enabled": false
+        },
+        {
+          "name": "schedulerDeleteSections",
+          "enabled": true
+        },
+        {
+          "name": "schedulerDeleteCourses",
+          "enabled": true
+        },
+        {
+          "name": "delegatedAdminShowAllPublished",
+          "enabled": false
+        },
+        {
+          "name": "delegatedAdminDeleteUsers",
+          "enabled": true
+        },
+        {
+          "name": "outOfTermContentDownloads",
+          "enabled": false
+        },
+        {
+          "name": "schedulerDeleteTerms",
+          "enabled": true
+        },
+        {
+          "name": "studentUcDownload",
+          "enabled": false
+        },
+        {
+          "name": "delegatedAdminCaptureHierarchy",
+          "enabled": false
+        },
+        {
+          "name": "ucStudentClassroomLogin",
+          "enabled": false
+        },
+        {
+          "name": "captionAllInstantCaptures",
+          "enabled": false
+        },
+        {
+          "name": "delegatedAdminConfigurationAccess",
+          "enabled": true
+        },
+        {
+          "name": "brandingV2",
+          "enabled": true
+        },
+        {
+          "name": "publicLinksForInstructors",
+          "enabled": true
+        }
+      ]
+    },
+    "timeZone": "(+00:00) Europe/London",
+    "userPermissions": {}
+  },
+  "title": "CS118 - 2025-11-14",
+  "video": {
+    "disableAutoBandwidth": false,
+    "duration": "PT2702.756S",
+    "mediaId": "a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1",
+    "playableMedias": [
+      {
+        "isHls": true,
+        "isLive": false,
+        "quality": [
+          0,
+          1
+        ],
+        "sourceIndex": 0,
+        "trackType": [
+          "Audio"
+        ],
+        "uri": "https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1/2/s0_a.m3u8?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_a35d7e20-e240-4ebb-b170-b37d1659fcf9_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-14T09%3A00%3A00.000_2025-11-14T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1&x-act=videoView&x-src=desktop"
+      },
+      {
+        "isHls": true,
+        "isLive": false,
+        "quality": [
+          0,
+          1
+        ],
+        "sourceIndex": 1,
+        "trackType": [
+          "Video"
+        ],
+        "uri": "https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1/2/s1_v.m3u8?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_a35d7e20-e240-4ebb-b170-b37d1659fcf9_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-14T09%3A00%3A00.000_2025-11-14T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1&x-act=videoView&x-src=desktop"
+      },
+      {
+        "isHls": true,
+        "isLive": false,
+        "quality": [
+          0,
+          1
+        ],
+        "sourceIndex": 1,
+        "trackType": [
+          "Audio",
+          "Video"
+        ],
+        "uri": "https://content.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1/2/s1_av.m3u8?x-uid=1baf248b-1515-4eb0-a340-7080c22f9991&x-instid=9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e&x-oid=ea5fa303-1409-4833-906f-f59dbbe19568&x-did=2e0a40b1-0737-44b9-aef2-b7d4b03276c3&x-lid=G_a35d7e20-e240-4ebb-b170-b37d1659fcf9_2e58098a-7b13-46d1-a841-93835d83a900_2025-11-14T09%3A00%3A00.000_2025-11-14T10%3A00%3A00.000&x-sid=2e58098a-7b13-46d1-a841-93835d83a900&x-mid=a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1&x-act=videoView&x-src=desktop"
+      }
+    ],
+    "posterMedia": [
+      {
+        "sourceIndex": 1,
+        "uri": "https://thumbnails.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1/2/poster1.jpg"
+      }
+    ],
+    "thumbnailMedia": [
+      {
+        "baseUri": "https://thumbnails.echo360.org.uk/0000.9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/a5b9cd5d-6cd7-4ade-ab95-e78249b0d4d1/2/thumbnails1",
+        "extension": "jpg",
+        "sourceIndex": 1,
+        "timesInSeconds": [
+          0,
+          60,
+          120,
+          180,
+          240,
+          300,
+          360,
+          420,
+          480,
+          540,
+          600,
+          660,
+          720,
+          780,
+          840,
+          900,
+          960,
+          1020,
+          1080,
+          1140,
+          1200,
+          1260,
+          1320,
+          1380,
+          1440,
+          1500,
+          1560,
+          1620,
+          1680,
+          1740,
+          1800,
+          1860,
+          1920,
+          1980,
+          2040,
+          2100,
+          2160,
+          2220,
+          2280,
+          2340,
+          2400,
+          2460,
+          2520,
+          2580,
+          2640
+        ]
+      }
+    ],
+    "liveTimeAvailable": false
+  },
+  "sessionId": "a48103f0-0097-4b38-b44d-b1a7fb2b7354",
+  "liveLessonInfo": null,
+  "liveTrackingInfo": null,
+  "isMobile": false,
+  "playerBranding": {
+    "id": "078f7020-e47a-4fbc-9949-a56fe25bcb66",
+    "institutionId": "9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e",
+    "name": "2025 branding ",
+    "branding": [
+      {
+        "brandingMediaId": "29e564ce-707d-41df-8d3f-0b771a7f3671",
+        "brandingType": "Logo",
+        "duration": "PT0S",
+        "baseUri": "https://branding.echo360.org.uk/9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/images/logos/29e564ce-707d-41df-8d3f-0b771a7f3671/",
+        "variants": [
+          {
+            "width": 244,
+            "height": 80,
+            "fileName": "Logo-244x80.png",
+            "sizeInBytes": 13511
+          },
+          {
+            "width": 183,
+            "height": 60,
+            "fileName": "Logo-183x60.png",
+            "sizeInBytes": 9456
+          },
+          {
+            "width": 122,
+            "height": 40,
+            "fileName": "Logo-122x40.png",
+            "sizeInBytes": 5590
+          },
+          {
+            "width": 61,
+            "height": 20,
+            "fileName": "Logo-61x20.png",
+            "sizeInBytes": 2062
+          }
+        ]
+      },
+      {
+        "brandingMediaId": "d0b836b5-e9be-4da5-9ed1-f3d6e84192f2",
+        "brandingType": "Watermark",
+        "duration": "PT0S",
+        "position": "BottomRight",
+        "opacity": 1,
+        "baseUri": "https://branding.echo360.org.uk/9a8ba622-ee9e-4f7b-8145-9a18d7a6a80e/images/watermarks/d0b836b5-e9be-4da5-9ed1-f3d6e84192f2/",
+        "variants": [
+          {
+            "width": 94,
+            "height": 135,
+            "fileName": "Watermark-94x135.png",
+            "sizeInBytes": 21474
+          },
+          {
+            "width": 62,
+            "height": 90,
+            "fileName": "Watermark-62x90.png",
+            "sizeInBytes": 11717
+          },
+          {
+            "width": 47,
+            "height": 68,
+            "fileName": "Watermark-47x68.png",
+            "sizeInBytes": 7807
+          },
+          {
+            "width": 31,
+            "height": 45,
+            "fileName": "Watermark-31x45.png",
+            "sizeInBytes": 4254
+          },
+          {
+            "width": 15,
+            "height": 22,
+            "fileName": "Watermark-15x22.png",
+            "sizeInBytes": 1399
+          }
+        ]
+      }
+    ],
+    "colors": {
+      "accent": "#A499F4"
+    },
+    "embedSpec": {
+      "dimensions": "Small",
+      "autoPlay": false,
+      "autoMute": false
+    },
+    "institutionDefault": true,
+    "disabled": false,
+    "createdBy": "c2ba0d55-be12-4e7a-a6d2-cb36721df630",
+    "createdAt": "2025-08-12T14:20:01.118Z",
+    "updatedAt": "2025-08-12T14:43:58.615Z"
+  },
+  "id": "r163ad4d6-f835-4b70-945a-774175a6b66d"
+}
