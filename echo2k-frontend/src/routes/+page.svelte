@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<main class="holding-page">
+	<section class="holding-modal">
+		<h1 class="holding-title">
+			<span class="holding-title-echo">echo</span><span class="holding-title-2k">2k</span>
+		</h1>
+		<p class="holding-subtitle">coming soon to a university near you.</p>
+	</section>
+</main>
