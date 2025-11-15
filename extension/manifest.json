@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Echo-2k API Client",
+  "version": "0.1.0",
+  "description": "Retrieves echo media links and forwards them to the central server for processing.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://echo360.org.uk/lesson/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
