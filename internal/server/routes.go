@@ -33,7 +33,7 @@ func (s *Server) RegisterRoutes() http.Handler {
 		// mount other api handlers here…
 	}
 
-	staticDir := filepath.Join("/", "app", "dist")
+	staticDir := filepath.Join("/", "dist")
     r.Use(func(c *gin.Context) {
         // only intercept GET/HEAD
         // if c.Request.Method != http.MethodGet && c.Request.Method != http.MethodHead {

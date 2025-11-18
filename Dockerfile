@@ -1,37 +1,45 @@
-# syntax=docker/dockerfile:1.7         # Enable BuildKit features
+# syntax=docker/dockerfile:1.7
 
-################## Front-end ##################
-FROM node:22.15.0-alpine AS frontend_builder
+################## Front-end (SvelteKit static) ##################
+FROM node:22-slim AS frontend_builder
 
 WORKDIR /frontend
-ENV NODE_ENV=production
 
-# ----- deps (cached) -----
+# 1) Install deps (including devDeps so Vite/SvelteKit are available)
 COPY frontend/package*.json ./
-RUN --mount=type=cache,target=/root/.npm \
-    npm ci --omit=dev
+RUN npm ci --include=dev || npm install --include=dev
 
-# ----- sources -----
+# 2) Copy source and build
 COPY frontend/ .
+# Assumes adapter-static outputs to "dist"
 RUN npm run build      # -> /frontend/dist
 
-# 2) BACKEND BUILD – static, stripped
-FROM golang:1.24.2-alpine AS backend_builder
+
+################## Back-end (Go API) ##################
+FROM golang:1.25-alpine AS backend_builder
+
 WORKDIR /app
 ENV CGO_ENABLED=0 GOOS=linux GOARCH=amd64
-COPY go.mod go.sum ./
-RUN --mount=type=cache,target=/go/pkg/mod go mod download
-COPY . .
-# strip debug info with -s -w
-RUN --mount=type=cache,target=/root/.cache/go-build \
-    go build -trimpath -ldflags="-s -w" -o main ./cmd/api
 
-# 3) RUNTIME – scratch for zero libc overhead
-FROM scratch AS prod
-# copy only the binary and assets
+# 1) Go deps
+COPY go.mod go.sum ./
+RUN go mod download
+
+# 2) Copy sources and build
+COPY . .
+RUN go build -trimpath -ldflags="-s -w" -o main ./cmd/api
+
+
+################## Runtime ##################
+FROM alpine:latest AS prod
+
+# Need curl + sh for your docker-compose healthcheck:
+#   test: ["CMD-SHELL", "curl -f http://localhost:${PORT}/ || exit 1"]
+RUN apk add --no-cache curl
+
+# Copy the Go binary and static frontend
 COPY --from=backend_builder /app/main /main
 COPY --from=frontend_builder /frontend/dist /dist
-EXPOSE 8080
 
-# directly exec the static binary
+EXPOSE 8080
 ENTRYPOINT ["/main"]

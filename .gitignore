@@ -1,1 +1,74 @@
+# =========================
+# OS / Editor cruft
+# =========================
 .DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*~
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.local
+.env.*.local
+*.env
+
+# =========================
+# Go build artifacts
+# =========================
+# Top-level binaries
+/main
+
+# Common build / output dirs
+bin/
+build/
+dist/
+
+# go test output
+*.test
+*.out
+coverage/
+
+# =========================
+# Node / Frontend (SvelteKit)
+# =========================
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/.vite/
+frontend/.turbo/
+frontend/.parcel-cache/
+
+# Build output – ignore if you ONLY ever build via Docker/CI
+# (If you want to commit the static build for GitHub Pages or whatever, remove this)
+frontend/dist/
+
+# Frontend logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+
+# =========================
+# Misc
+# =========================
+*.sqlite
+*.db
+*.db-journal
+
+# Local docker-compose override files
+docker-compose.override.yml
+docker-compose.*.yml
