@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: Severian0/echo-2k
+  IMAGE_NAME: severian0/echo-2k
 
 permissions:
   contents: read
