@@ -30,7 +30,7 @@ services:
       - blueprint
 
   psql_bp:
-    image: postgres:latest
+    image: postgres:alpine
     restart: unless-stopped
     environment:
       POSTGRES_DB: ${BLUEPRINT_DB_DATABASE}
