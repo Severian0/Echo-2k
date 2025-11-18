@@ -30,7 +30,7 @@ RUN go build -trimpath -ldflags="-s -w" -o main ./cmd/api
 FROM alpine:latest AS prod
 
 WORKDIR /
-RUN apk add ca-certificates curl
+RUN apk add curl
 
 COPY --from=backend_builder /app/main /main
 COPY --from=frontend_builder /frontend/dist /dist
