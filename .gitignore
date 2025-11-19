@@ -48,6 +48,7 @@ coverage/
 # Node / Frontend (SvelteKit)
 # =========================
 frontend/node_modules/
+frontend/package-lock.json
 frontend/.svelte-kit/
 frontend/.vite/
 frontend/.turbo/
