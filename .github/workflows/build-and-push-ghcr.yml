@@ -33,9 +33,12 @@ jobs:
           docker build \
             --file Dockerfile \
             --target prod \
+            --build-arg FRONTEND_BUILD_ID=${GITHUB_SHA} \
+            --build-arg BACKEND_BUILD_ID=${GITHUB_SHA} \
             -t $IMAGE_NAME:latest \
             -t $IMAGE_NAME:${GITHUB_SHA} \
             .
+
 
       - name: Push image
         run: |
