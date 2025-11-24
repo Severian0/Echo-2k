@@ -3,6 +3,7 @@ package server
 import (
 	"net/http"
 	"os"
+	"path"
 	"path/filepath"
 	"strings"
 
@@ -14,7 +15,7 @@ func (s *Server) RegisterRoutes() http.Handler {
 	r := gin.Default()
 
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:8080","http://localhost:5173"}, // Add your frontend URL
+		AllowOrigins:     []string{"http://localhost:8080", "http://localhost:5173"}, // Add your frontend URL
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"},
 		AllowHeaders:     []string{"Accept", "Authorization", "Content-Type"},
 		AllowCredentials: true, // Enable cookies/auth
@@ -34,29 +35,34 @@ func (s *Server) RegisterRoutes() http.Handler {
 	}
 
 	staticDir := filepath.Join("/", "dist")
-    r.Use(func(c *gin.Context) {
-        // only intercept GET/HEAD
-        // if c.Request.Method != http.MethodGet && c.Request.Method != http.MethodHead {
-        //     c.Next()
-        //     return
-        // }
-        // let anything under /api through
-        if strings.HasPrefix(c.Request.URL.Path, "/api/") {
-            c.Next()
-            return
-        }
-        // try to serve the file if it exists
-        f := filepath.Join(staticDir, c.Request.URL.Path)
-        if info, err := os.Stat(f); err == nil && !info.IsDir() {
-            c.File(f)
-            c.Abort()
-            return
-        }
-        // otherwise SPA fallback
-        c.File(filepath.Join(staticDir, "index.html"))
-        c.Abort()
-    })
- 
+	redirectToApp := func(c *gin.Context) {
+		c.Redirect(http.StatusTemporaryRedirect, "/app")
+	}
+	r.GET("/", redirectToApp)
+	r.HEAD("/", redirectToApp)
+
+	spaHandler := func(c *gin.Context) {
+		reqPath := c.Param("path")
+		cleaned := path.Clean("/" + reqPath)
+		relPath := strings.TrimPrefix(cleaned, "/")
+
+		filePath := staticDir
+		if relPath != "" && relPath != "." {
+			filePath = filepath.Join(staticDir, relPath)
+		}
+
+		if info, err := os.Stat(filePath); err == nil && !info.IsDir() {
+			c.File(filePath)
+			return
+		}
+
+		c.File(filepath.Join(staticDir, "index.html"))
+	}
+
+	app := r.Group("/app")
+	app.GET("/*path", spaHandler)
+	app.HEAD("/*path", spaHandler)
+
 	return r
 }
 
